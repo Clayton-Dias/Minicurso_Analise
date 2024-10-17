@@ -12,13 +12,13 @@ import pandas as pd
 from twilio.rest import Client
 import os
 
-'''
+
 # Your Account SID from twilio.com/console
 account_sid= os.getenv("TWILIO_ACCOUNT_SID")  # SID da conta Twilio, usado para autenticação
 # Your Auth Token from twilio.com/console
 auth_token = os.getenv("TWILIO_AUTH_TOKEN")  # Token de autenticação da conta Twilio
 client = Client(account_sid, auth_token)  # Criação de uma instância do cliente Twilio
-'''
+
 
 # Função para enviar mensagem via Twilio
 def enviar_mensagem(mes, vendedor, vendas):
