@@ -1,12 +1,12 @@
 import pandas as pd
 from twilio.rest import Client
-'''
+
 # Your Account SID from twilio.com/console
 account_sid = "X"
 # Your Auth Token from twilio.com/console
 auth_token  = "X"
 client = Client(account_sid, auth_token)
-'''
+
 # Abrir os 6 arquivos em Excel
 lista_meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho']
 
